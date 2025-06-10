@@ -1,0 +1,21 @@
+{
+    "name": "Daily Vocabulary",
+    "short_name": "VocabApp",
+    "description": "Learn new words daily, search definitions, and manage your favorites.",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#f0f4f8",
+    "theme_color": "#4a90e2",
+    "icons": [
+        {
+            "src": "https://i.pinimg.com/736x/fb/c5/aa/fbc5aa8073b7c274e455292f696ae7a7.jpg",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://i.pinimg.com/736x/fb/c5/aa/fbc5aa8073b7c274e455292f696ae7a7.jpg",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
