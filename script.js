@@ -242,16 +242,17 @@ function setAppTheme(enableDarkTheme) {
     const textSpan = themeToggleButton.querySelector('.text');
     if (enableDarkTheme) {
         document.body.classList.add('dark-theme');
-        iconSpan.textContent = '🌙';
-        textSpan.textContent = 'Dark Mode';
+        iconSpan.textContent = '💡'; 
+        textSpan.textContent = 'Light Mode';
         localStorage.setItem('theme', 'dark');
     } else {
         document.body.classList.remove('dark-theme');
-        iconSpan.textContent = '💡';
-        textSpan.textContent = 'Light Mode';
+        iconSpan.textContent = '🌙'; 
+        textSpan.textContent = 'Dark Mode';
         localStorage.setItem('theme', 'light');
     }
 }
+
 
 function toggleWordFavoriteStatus(word, iconElement) {
     const index = currentFavoriteWords.indexOf(word);
